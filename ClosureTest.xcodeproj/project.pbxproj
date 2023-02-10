@@ -11,9 +11,6 @@
 		69D9E24B2996448C00ABA6F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9E24A2996448C00ABA6F6 /* ContentView.swift */; };
 		69D9E24D2996449200ABA6F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D9E24C2996449200ABA6F6 /* Assets.xcassets */; };
 		69D9E2502996449200ABA6F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D9E24F2996449200ABA6F6 /* Preview Assets.xcassets */; };
-		69D9E25A2996449300ABA6F6 /* ClosureTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9E2592996449300ABA6F6 /* ClosureTestTests.swift */; };
-		69D9E2642996449300ABA6F6 /* ClosureTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9E2632996449300ABA6F6 /* ClosureTestUITests.swift */; };
-		69D9E2662996449300ABA6F6 /* ClosureTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9E2652996449300ABA6F6 /* ClosureTestUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		69D9E24C2996449200ABA6F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69D9E24F2996449200ABA6F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69D9E2552996449300ABA6F6 /* ClosureTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClosureTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69D9E2592996449300ABA6F6 /* ClosureTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureTestTests.swift; sourceTree = "<group>"; };
 		69D9E25F2996449300ABA6F6 /* ClosureTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClosureTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69D9E2632996449300ABA6F6 /* ClosureTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureTestUITests.swift; sourceTree = "<group>"; };
-		69D9E2652996449300ABA6F6 /* ClosureTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				69D9E2472996448C00ABA6F6 /* ClosureTest */,
-				69D9E2582996449300ABA6F6 /* ClosureTestTests */,
-				69D9E2622996449300ABA6F6 /* ClosureTestUITests */,
 				69D9E2462996448C00ABA6F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				69D9E24F2996449200ABA6F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		69D9E2582996449300ABA6F6 /* ClosureTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				69D9E2592996449300ABA6F6 /* ClosureTestTests.swift */,
-			);
-			path = ClosureTestTests;
-			sourceTree = "<group>";
-		};
-		69D9E2622996449300ABA6F6 /* ClosureTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				69D9E2632996449300ABA6F6 /* ClosureTestUITests.swift */,
-				69D9E2652996449300ABA6F6 /* ClosureTestUITestsLaunchTests.swift */,
-			);
-			path = ClosureTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D9E25A2996449300ABA6F6 /* ClosureTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D9E2662996449300ABA6F6 /* ClosureTestUITestsLaunchTests.swift in Sources */,
-				69D9E2642996449300ABA6F6 /* ClosureTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
