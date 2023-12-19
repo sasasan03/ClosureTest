@@ -36,6 +36,8 @@ struct ContentView: View {
                        .frame(width: 100)
                    Button {
                        calc()
+                       let closure = { (num: Int) -> String in return "\(num)"}
+                       closure(10)
                    } label: {
                        Text("Button")
                    }

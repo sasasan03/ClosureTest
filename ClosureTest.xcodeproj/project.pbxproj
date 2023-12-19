@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		696564E62B304C7600FD8CEB /* GlobalFunctionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696564E52B304C7600FD8CEB /* GlobalFunctionTest.swift */; };
 		69D9E2492996448C00ABA6F6 /* ClosureTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9E2482996448C00ABA6F6 /* ClosureTestApp.swift */; };
 		69D9E24B2996448C00ABA6F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9E24A2996448C00ABA6F6 /* ContentView.swift */; };
 		69D9E24D2996449200ABA6F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D9E24C2996449200ABA6F6 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		696564E52B304C7600FD8CEB /* GlobalFunctionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunctionTest.swift; sourceTree = "<group>"; };
 		69D9E2452996448C00ABA6F6 /* ClosureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D9E2482996448C00ABA6F6 /* ClosureTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureTestApp.swift; sourceTree = "<group>"; };
 		69D9E24A2996448C00ABA6F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				69D9E2482996448C00ABA6F6 /* ClosureTestApp.swift */,
 				69D9E24A2996448C00ABA6F6 /* ContentView.swift */,
+				696564E52B304C7600FD8CEB /* GlobalFunctionTest.swift */,
 				69D9E24C2996449200ABA6F6 /* Assets.xcassets */,
 				69D9E24E2996449200ABA6F6 /* Preview Content */,
 			);
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69D9E24B2996448C00ABA6F6 /* ContentView.swift in Sources */,
+				696564E62B304C7600FD8CEB /* GlobalFunctionTest.swift in Sources */,
 				69D9E2492996448C00ABA6F6 /* ClosureTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,8 @@ import SwiftUI
 struct ClosureTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            GlobalFunctionTest()
         }
     }
 }
