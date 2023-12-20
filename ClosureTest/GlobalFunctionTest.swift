@@ -4,7 +4,7 @@
 //
 //  Created by sako0602 on 2023/12/18.
 //
-
+// aaaa
 import SwiftUI
 
 class A{
